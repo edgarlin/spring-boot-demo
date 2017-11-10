@@ -24,7 +24,7 @@ public class IndexController {
 
 	@RequestMapping
 	public String index() {
-		return "hello world";
+		return "hello world\n";
 	}
 
 	// @RequestParam 简单类型的绑定，可以出来get和post
